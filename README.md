@@ -30,25 +30,27 @@ Will give you this information exactly one time for your working directory.
 ```
 ## Arguments 
 ```
- --dir     Default: current working directory. 
-           Can be a directory of your choice. 
+ --dir         Default: "" (current working directory). 
+               Can be a directory of your choice. 
            
- --wait    Default: 0 
-           Wait in between the file counts. Set to a number of your choice.
-           Recommendation is some seconds only for a low number of total files
-           in a directory (<10.000) or a higher number if you want a 
-           better leveled average. 
-           When working with large directories (>500.000 files) just use the zero 
-           default or a few seconds only as counting itself might take some 
-           seconds as well.
+ --wait        Default: 0 [seconds]
+               Wait in between the file counts. Set to a number of your choice.
+               Recommendation is some seconds only for a low number of total files
+               in a directory (<10.000) or a higher number if you want a 
+               better leveled average. 
+               When working with large directories (>500.000 files) just use the zero 
+               default or a few seconds only as counting itself might take some 
+               seconds as well.
            
---repeat   Default: 1
-           Repeat the counting process n times. If you are just interested in a 
-           one time count/rate leave it to the default. 
-           For real-time monitoring set to a high number of your choice and combine
-           with a number ≥0 for --wait flag when monitoring small directories. 
-           Leave to default for big directories.
+--repeat       Default: 1 [time(s)]
+               Repeat the counting process n times. If you are just interested in a 
+               one time count/rate leave it to the default. 
+               For real-time monitoring set to a high number of your choice and combine
+               with a number ≥0 for --wait flag when monitoring small directories. 
+               Leave to default for big directories.
            
+--file_type    Default: * (all file types)
+               This can be any string. For textfiles use i.e. *.txt or for jsons *.json
 ```
 
 ## Logic 
