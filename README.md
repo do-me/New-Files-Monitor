@@ -1,5 +1,5 @@
 # New-Files-Monitor
-A simple live monitor to get a new files/s rate in a directory. Working well with 1.000.000+ files. Particularly useful when (chaotically) downloading from multiple threads. A perfect symbiosis with https://github.com/do-me/fast-instagram-scraper.
+A simple live monitor to get a new files/s rate in a directory. Working well with 1.000.000+ files. Particularly useful when (chaotically) downloading from multiple threads. A perfect symbiosis with [Fast Instagram Scraper](https://github.com/do-me/fast-instagram-scraper).
 
 ## Installation 
 I just dicovered [fire](https://github.com/google/python-fire) and found it quite useful as an easy command line parser. 
