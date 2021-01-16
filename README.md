@@ -53,6 +53,12 @@ Will give you this information exactly one time for your working directory.
                This can be any string. For textfiles use i.e. *.txt or for jsons *.json
 ```
 
+Long example
+
+```
+python new-files-monitor.py --dir "D:/data/" --wait 10 --repeat 10 --file_type *.json
+```
+
 ## Logic 
 For some reason it is very uncommon on github to explain your code in a few words. I'd appreciated this a lot in the past (and would still do!) so I add this section to all of my future repos. If it helps just one person maybe new to coding it was worth the effort.
 
