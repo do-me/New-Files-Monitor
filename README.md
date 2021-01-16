@@ -70,7 +70,9 @@ Begin a loop:
   Count all files in dir and get current time #1
   Wait n seconds 
   Count all files in dir and get current time #2
-  Calculate deltas and rate 
+  Calculate deltas
+  Calculate rate and beware of dividing by 0 
   Print results and erase previously printed lines
+  
 ```
 
