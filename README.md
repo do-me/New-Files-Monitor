@@ -16,7 +16,7 @@ In case you don't want to install fire, either rewrite it yourself with `argpars
 
 ## Usage
 ```
-python .\new-files-monitor.py 
+python new-files-monitor.py 
 ```
 Will give you this information exactly one time for your working directory.
 
